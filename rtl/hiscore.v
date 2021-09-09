@@ -542,6 +542,7 @@ begin
 							end
 							else
 							begin
+								extracting_dump <= 1'b0;
 								state <= SM_STOPPED;
 							end
 						end
